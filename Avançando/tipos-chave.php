@@ -9,5 +9,5 @@ $array = [
 ];
 
 foreach ($array as $item) {
-    echo $item .    PHP_EOL;
+    echo $item . PHP_EOL;
 }
