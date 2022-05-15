@@ -1,22 +1,20 @@
 <?php
 
 $conta1 = [
-'nome' => 'Rafael',
-'saldo' => 1000
+    'titular' => 'Vinicius',
+    'saldo' => 1000
 ];
-
 $conta2 = [
-    'nome' => 'Thiago',
-    'saldo' => 5000
-    ];
-    
+    'titular' => 'Maria',
+    'saldo' => 10000
+];
 $conta3 = [
-    'nome' => 'Bruno',
-    'saldo' => 4000
-    ];
+    'titular' => 'Alberto',
+    'saldo' => 300
+];
 
 $contasCorrentes = [$conta1, $conta2, $conta3];
 
-for($i =0; $i<count($contasCorrentes); $i++){
-    echo $contasCorrentes[$i]['nome'].PHP_EOL;
-};
+for ($i = 0; $i < count($contasCorrentes); $i++) {
+    echo $contasCorrentes[$i]['titular'] . PHP_EOL;
+}
